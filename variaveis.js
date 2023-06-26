@@ -1,5 +1,5 @@
 let age =20; // number
-// fullName = 'Lindomar'; // string
+ let fullName = 'Lindomar'; // string
 //let isValid = true; // boolean
 //let xablou; // undefined
 //let value = null;
