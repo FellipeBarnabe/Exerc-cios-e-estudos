@@ -1,4 +1,4 @@
-//let age =20; // number
+let age =20; // number
 // fullName = 'Lindomar'; // string
 //let isValid = true; // boolean
 //let xablou; // undefined
