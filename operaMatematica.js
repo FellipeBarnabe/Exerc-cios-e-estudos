@@ -56,20 +56,30 @@
 
 
 
-const carteira = 120;
-const contaBanco = 1200;
-let gastos = 5000;
-let contaRestaurante = '';
+// const carteira = 120;
+// const contaBanco = 1200;
+// let gastos = 5000;
+// let contaRestaurante = '';
 
-if (carteira >= gastos)
-{
-    contaRestaurante = 'Mandou bem pra gata'
+// if (carteira >= gastos)
+// {
+//     contaRestaurante = 'Mandou bem pra gata'
 
-}else if(carteira + gastos <=contaBanco){
-    contaRestaurante = 'passe o cartão'
+// }else if(carteira + gastos <=contaBanco){
+//     contaRestaurante = 'passe o cartão'
 
-}else {
-    contaRestaurante = 'Vai ter q lavar prato'
-}
+// }else {
+//     contaRestaurante = 'Vai ter q lavar prato'
+// }
 
-console.log(contaRestaurante)
+// console.log(contaRestaurante)
+
+// let temperature = 20;
+// let weather = temperature > 30 ? 'ta quente' : 'ta frio';
+
+// console.log(weather);
+
+let idadeCorno = 65;
+let serCorno = idadeCorno >= 51 ? 'É COORNO!' : 'Ainda não é corno!';
+
+console.log(serCorno);
