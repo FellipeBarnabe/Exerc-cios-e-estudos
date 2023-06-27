@@ -79,7 +79,8 @@
 
 // console.log(weather);
 
-let idadeCorno = 65;
+let idadeCorno = 25;
 let serCorno = idadeCorno >= 51 ? 'É COORNO!' : 'Ainda não é corno!';
 
-console.log(serCorno);
+console.log(`A idade de ser corno é ${idadeCorno}, você ${serCorno}`)
+
