@@ -158,3 +158,91 @@
 // }
 
 // console.log(message);
+
+
+// const bebidaPrincipal = 'capuccino';
+// const bebidaAlternativa = 'cachaça';
+// const outraBebida = 'capuccino';
+// message ='';
+
+// if (bebidaPrincipal === 'suco' || bebidaAlternativa === 'café'){
+//     message = 'Ok, meu pedido está satisfeito';
+// }else if (bebidaPrincipal === outraBebida){
+//     message= 'esse não é meu pedido'
+
+// }else{
+//     message='Nunca mais volto nessa espelunca';
+// }
+
+// console.log(message);
+
+// const goToSp = true;
+// const goToGO = false;
+
+// if ((goToSp === true && goToGO === false) || (goToSp === false && goToGO === true)){
+//     console.log('Eu fui apenas para um dos lugares');
+// }else{
+//     console.log('Eu fui para os dois, ou para nenhum');
+// }
+
+// const tocarGuitarra = true; 
+// const estudarTi  = false;
+
+// if ((tocarGuitarra === true && estudarTi === false) || (estudarTi === true && tocarGuitarra === false)){
+
+//     console.log('Eu preferi tocar guitarra');
+
+// }else{
+//     console.log('Eu fui estudar TI para dar dinheiro');
+// }
+
+
+// if((tocarGuitarra === false && estudarTi === true) || (estudarTi===true && tocarGuitarra===false)){
+
+//     console.log('Eu preferi fazer um dos dois');
+// }else{
+//     console.log('Eu fiz um dos dois, ou fiz nenhum');}
+
+// Operador NOT
+
+// console.log(!(2 +2) ===4);
+
+// let charmander = 'Melhor de todos';
+//  console.log(!charmander);
+
+
+//  console.log(!42);
+
+//  console.log(!0);
+
+//  console.log(!null);
+//  console.log(!undefined);
+
+
+
+// let num1= 10;
+// let num2 = 14;
+
+// console.log('soma:' + (num1 + num2));
+// console.log('Multiplicação:' + (num1 *num2));
+// console.log('divisão:'+ (num1 / num2));
+// console.log('resto:' + (num1 % num2));
+// console.log('Subtração:' + (num1 - num2));
+
+
+let number1 = 37;
+let number2= 40;
+message = '';
+
+if(number1 > number2){
+
+    message = 'The number 1 is bigger than numeber2';
+}else if ( number1 === number2){
+
+    message = 'The variable number1 is equal than variable number2'
+}else if(number1 < number2){
+
+    message='The variable number1 is small than variable number2'
+}
+
+console.log(`The result of the comparison between two variable is: ${message}`);
