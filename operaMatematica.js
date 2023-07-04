@@ -110,12 +110,12 @@
 //     message= 'Aprovado'
 
 // }else if (grade < 80 && grade >= 60){
-    
+
 //     message = 'Você está na nossa lista de espera'
 
 // }else if(grade < 60){
 //     message = 'Você está reprovado'
-    
+
 // }
 
 // console.log(message);
@@ -230,19 +230,148 @@
 // console.log('Subtração:' + (num1 - num2));
 
 
-let number1 = 37;
-let number2= 40;
-message = '';
+// let number1 = 37;
+// let number2= 40;
+// message = '';
 
-if(number1 > number2){
+// if(number1 > number2){
 
-    message = 'The number 1 is bigger than numeber2';
-}else if ( number1 === number2){
+//     message = 'The number 1 is bigger than numeber2';
+// }else if ( number1 === number2){
 
-    message = 'The variable number1 is equal than variable number2'
-}else if(number1 < number2){
+//     message = 'The variable number1 is equal than variable number2'
+// }else if(number1 < number2){
 
-    message='The variable number1 is small than variable number2'
-}
+//     message='The variable number1 is small than variable number2'
+// }
 
-console.log(`The result of the comparison between two variable is: ${message}`);
+// console.log(`The result of the comparison between two variable is: ${message}`);
+
+// const num1 = 1;
+// const num2 = 20;
+// const num3 = 10;
+
+// let message = '';
+
+// if(num1 > num2 && num1>num3){
+//     message='num1 é maior que num2 e num3';
+// }else if(num2>num1 && num2>num3){
+//     message='num2 é maior que num1 e num3';
+// }else if(num3>num1 && num3>num2){
+//     message='num3 é maior que num1 e num2'
+// }else{
+//     message="todos os números são iguais"
+// }
+
+// console.log(message);
+
+
+// const diaDaSemana = 'terça';
+
+// switch (diaDaSemana) {
+//   case 'segunda':
+//     console.log('Hoje é segunda-feira.');
+//     break;
+//   case 'terça':
+//     console.log('Hoje é terça-feira.');
+//     break;
+//   case 'quarta':
+//     console.log('Hoje é quarta-feira.');
+//     break;
+//   case 'quinta':
+//     console.log('Hoje é quinta-feira.');
+//     break;
+//   case 'sexta':
+//     console.log('Hoje é sexta-feira.');
+//     break;
+//   default:
+//     console.log('Fim de semana!');
+// }
+
+//excercicios 
+
+// const num1 = 35;
+// const num2 = 63;
+// const num3 = 87;
+
+// let trueFalse = false;
+
+
+// if(num1 % 2 === 0){
+//   trueFalse=true;
+// }else if(num2 % 2 === 0){
+//   trueFalse = true;
+// }else if (num3 % 2 ===0){
+//   trueFalse = true
+// }else{
+//   trueFalse=false;
+// }
+
+// console.log(trueFalse);
+
+// const num1 = 33;
+// const num2 = 24;
+// const num3 = 66; 
+
+// let trueFalse= null;
+
+
+// if(num1 % 2 ===0 || num2 % 2 ===0 || num3 % 2 ===0){
+
+//   trueFalse = true;
+// }else{
+//   trueFalse = false;
+// }
+
+
+// console.log(trueFalse);
+
+
+// const salarioBruto = 2500.94;
+
+// let salarioLiquido = 0;
+
+
+// if(salarioBruto >= 1556.94){
+//   const desconto = salarioBruto * 0.08;
+//   salarioLiquido = salarioBruto - desconto;
+// }else if(salarioBruto >= 1556.95 && salarioBruto <= 2594.92){
+//   const desconto = salarioBruto * 0.09;
+//   salarioLiquido = salarioBruto - desconto
+// }else if(salarioBruto >= 2594.93 && salarioBruto <= 5189.82){
+//   const desconto = salarioBruto * 0.11;
+//   salarioLiquido = salarioBruto - desconto;
+// }else if(salarioBruto > 5189.82){
+//   const desconto = (salarioBruto - (570))
+//   salarioLiquido = desconto;
+// }
+
+// console.log(`O seu salário líquido é de: ${salarioLiquido} `);
+
+
+// const chessPiece = 'left';
+// let movimento ='';
+
+// switch(chessPiece){
+//   case 'left':
+//   movimento = 'left'; 
+//   break;
+//   case 'right':
+//   movimento = 'right';
+//   break;
+//   case 'up':
+//   movimento = 'up';  
+//  break;
+//  case 'down':
+//  movimento ='down';
+//  break; 
+//  default:
+//   movimento = 'error';
+// }
+
+// movimento = movimento.toUpperCase();
+
+
+// console.log(`The moviment of the chess piece is : ${movimento}`);
+
+
