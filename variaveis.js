@@ -1,6 +1,6 @@
-let age =20; // number
- let fullName = 'Lindomar'; // string
-//let isValid = true; // boolean
+// let age =20; // number
+//  let fullName = 'Lindomar'; // string
+// //let isValid = true; // boolean
 //let xablou; // undefined
 //let value = null;
 
@@ -71,13 +71,13 @@ let age =20; // number
 //console.log(typeof patientId);
 
 
-const myName = 'Fellipe';
-const birthCity = 'Goiana-PE'
-const birthYear = 1989; 
+// const myName = 'Fellipe';
+// const birthCity = 'Goiana-PE'
+// const birthYear = 1989; 
 
-console.log(typeof myName);
-console.log(birthCity);
-console.log(typeof birthYear);
+// console.log(typeof myName);
+// console.log(birthCity);
+// console.log(typeof birthYear);
 
 
 
