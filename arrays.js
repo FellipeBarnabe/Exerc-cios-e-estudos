@@ -172,18 +172,65 @@
 // console.log(`O maior valor numérico do array é: ${maxNumber}`);
 
 
-const numbers = [5,9,3,19,70,8,100,2,35,27,41,26,150]; // Variável const com um conjunto de 13 elementos e 12 indíces
-let maxNumber = ''; // variável let maxNumber que receberá o valor maior do array
+// const numbers = [5,9,3,19,70,8,100,2,35,27,41,26,150]; // Variável const com um conjunto de 13 elementos e 12 indíces
+// let maxNumber = ''; // variável let maxNumber que receberá o valor maior do array
 
-for(index = 0; index < numbers.length; index += 1){   // loop for que, usando método length, percorre todos os elementos do array 
-    if(numbers[index] > maxNumber)                      // condicional if que testa se a posição atual do array depois de ter passado pelo for, 
-                                                      //é maior que a variável maxNumber 
-    maxNumber =numbers[index];                        // a variavel maxNumber recebe a posição atual do array da variável numbers. 
+// for(index = 0; index < numbers.length; index += 1){   // loop for que, usando método length, percorre todos os elementos do array 
+//     if(numbers[index] > maxNumber)                      // condicional if que testa se a posição atual do array depois de ter passado pelo for, 
+//                                                       //é maior que a variável maxNumber 
+//     maxNumber =numbers[index];                        // a variavel maxNumber recebe a posição atual do array da variável numbers. 
 
+// }
+
+// console.log(`O valor máximo do array numbers é: ${maxNumber}`);
+
+
+
+
+// let word ='tryber';
+// let invert ='';
+
+// for(let index = word.length -1; index >=0; index--  ){
+//     invert += word[index];
+// }
+
+
+// console.log(invert);
+
+// let palavra = "tryber";
+// let palavraInvertida = "";
+
+// for (let i = palavra.length - 1; i >= 0; i--) {
+//   palavraInvertida += palavra[i];
+// }
+
+// console.log(palavraInvertida);
+
+
+
+// function imprimirQuadradoAsteriscos(n){
+
+//     if( n <=1){
+//         console.log('O valor de n deve ser maior que 1');
+//         return;
+//     }
+//     for(let i = 0; i <n; i++){
+
+//         let linha ="";
+//         for(let j =0; j < n; j++){
+//             linha+= "* ";
+//         }
+//         console.log(linha);
+// }
+
+
+// }
+
+
+// const tamanho =5;
+
+// imprimirQuadradoAsteriscos(tamanho);
+
+function arremessar(sexta, nSexta){
+    if(sexta )
 }
-
-console.log(`O valor máximo do array numbers é: ${maxNumber}`);
-
-
-
-
