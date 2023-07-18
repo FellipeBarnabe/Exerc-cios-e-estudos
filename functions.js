@@ -214,18 +214,54 @@
 // console.log(instruments);
 
 
-const instruments = ['Eletric guitar', 'Acustic guitar','Drums','Bass']; // uma constante que recebe 4 arrays
+// const instruments = ['Eletric guitar', 'Acustic guitar','Drums','Bass']; // uma constante que recebe 4 arrays
 
-function bestInstrument(theBest){          // uma função de nome 'bestInstrument' que recebe um parâmetro chamado 'theBest'
+// function bestInstrument(theBest){          // uma função de nome 'bestInstrument' que recebe um parâmetro chamado 'theBest'
    
-    for(let index = 0; index < instruments.length; index +=1){  // o loop for percorre todo o array
-        if( theBest === instruments[0]){   // o if testa se o valor que o parâmetro 'theBest vai receber será igual a posição do index [] da constante 'instruments'
-            return 'Your best instrument is the eletric guitar' // retorna essa mensagem se o parâmetro theBest for igual a posição do index
-        }
-            return 'This is not your best instrument'  // essa mensagem é se o parâmetro for diferente
+//     for(let index = 0; index < instruments.length; index +=1){  // o loop for percorre todo o array
+//         if( theBest === instruments[0]){   // o if testa se o valor que o parâmetro 'theBest vai receber será igual a posição do index [] da constante 'instruments'
+//             return 'Your best instrument is the eletric guitar' // retorna essa mensagem se o parâmetro theBest for igual a posição do index
+//         }
+//             return 'This is not your best instrument'  // essa mensagem é se o parâmetro for diferente
         
-    }
+//     }
     
-}     
+// }     
 
-console.log(bestInstrument('Eletric guitar')); // a chamada da função vai passar o argumento para o parâmetro que testara se é igual a posição do array de instruments. 
+// console.log(bestInstrument('Eletric guitar')); // a chamada da função vai passar o argumento para o parâmetro que testara se é igual a posição do array de instruments. 
+
+
+// const trybeBankCustomers =['Olivia', 'nat', 'Gus'];
+// const pirilampoCustomers =['Noel', 'carol,', 'Angel', 'Kissyla'];
+
+// function findElements(array, element){     // A função findElements recebe dois parâmetros, array e element
+//         return array.includes(element); // o console (que também pode ser "return") imprime o parãmetro array usando o método includes que verifica todo o array e retornar booleano
+// };
+
+// console.log(findElements(pirilampoCustomers, 'Angel')); // a A chamada da função recebe pirilampoCustomers, e o array 'Angel' que será o segundo parâmetro. 
+// console.log(findElements(trybeBankCustomers, 'nat'));
+// console.log(findElements(pirilampoCustomers, 'Kyssyla'));
+// console.log(findElements(pirilampoCustomers, 'Felipe'));
+
+const balance = 100; 
+
+function sumBalance(value){
+    return value + balance;
+
+};
+function subtBalance(value){
+    return balance - value;
+};
+
+function multBalance(value){
+    return balance * value;
+}
+
+function divBalance(value){
+    return balance / value;
+}
+
+console.log(sumBalance(20));
+console.log(subtBalance(52));
+console.log(multBalance(32));
+console.log(divBalance(96));
