@@ -231,6 +231,3 @@
 
 // imprimirQuadradoAsteriscos(tamanho);
 
-function arremessar(sexta, nSexta){
-    if(sexta )
-}

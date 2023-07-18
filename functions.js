@@ -245,23 +245,23 @@
 
 const balance = 100; 
 
-function sumBalance(value){
-    return value + balance;
+// function sumBalance(value){
+//     return value + balance;
 
-};
-function subtBalance(value){
-    return balance - value;
-};
+// };
+// function subtBalance(value){
+//     return balance - value;
+// };
 
-function multBalance(value){
-    return balance * value;
-}
+// function multBalance(value){
+//     return balance * value;
+// }
 
-function divBalance(value){
-    return balance / value;
-}
+// function divBalance(value){
+//     return balance / value;
+// }
 
-console.log(sumBalance(20));
-console.log(subtBalance(52));
-console.log(multBalance(32));
-console.log(divBalance(96));
+// console.log(sumBalance(20));
+// console.log(subtBalance(52));
+// console.log(multBalance(32));
+// console.log(divBalance(96));
