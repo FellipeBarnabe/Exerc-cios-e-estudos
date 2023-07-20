@@ -283,5 +283,7 @@
 
 // console.log(sumArray([15,16,18,19]));
 
-const countWords = phrase => phrase.split('').length;
-console.log(countWords('Ai dento!'));
+// const countWords = phrase => phrase.split('').length;
+// console.log(countWords('Ai dento!'));
+
+
