@@ -255,15 +255,33 @@
 // console.log(verifyPalindrome('gnirts'));
 
 
-const getHighestIndex = (numbers) => {  //uma arrowfunction que recebe um parâmetro numbers
-    let highestIndex = 0;               // uma variavel do tipo let highestIndex que inicia com zero.
+// const getHighestIndex = (numbers) => {  //uma arrowfunction que recebe um parâmetro numbers
+//     let highestIndex = 0;               // uma variavel do tipo let highestIndex que inicia com zero.
 
-    for (let index = 0; index < numbers.length; index += 1) { // o loop for tem o objetivo de passar por toro parâmetro numbers que receberá o valor dos arrays através do método length 
-        if (numbers[highestIndex] < numbers[index]) { // condicional if que testa se 
-            highestIndex = index;
-        }
-    }
-    return highestIndex;
-}
+//     for (let index = 0; index < numbers.length; index += 1) { // o loop for tem o objetivo de passar por toro parâmetro numbers que receberá o valor dos arrays através do método length 
+//         if (numbers[highestIndex] < numbers[index]) { // condicional if que testa se 
+//             highestIndex = index;
+//         }
+//     }
+//     return highestIndex;
+// }
 
-console.log(getHighestIndex([10, 15, 52, 95, 120]));
+// console.log(getHighestIndex([10, 15, 52, 95, 120]));
+
+
+
+// const sumArray = (Array)=>{
+
+//     let sum = 1;
+
+//     for(let index =0; index < Array.length; index +=1){
+//         sum = sum + Array[index];
+//     }
+//     return sum;
+
+// }
+
+// console.log(sumArray([15,16,18,19]));
+
+const countWords = phrase => phrase.split('').length;
+console.log(countWords('Ai dento!'));
