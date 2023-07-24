@@ -24,35 +24,35 @@
 
 // // }else(console.log('seu número é impar'));
 
-// // const beenPrice =10; 
-// // const totalMoney = 10;
-// // let message ='';
+// const beenPrice =10; 
+// const totalMoney = 15;
+// let message ='';
 
 
-// // if(totalMoney < beenPrice){
-// //     message ='Você não possui saldo suficiente';
-// // }else if (totalMoney === beenPrice){
-// //     message ='Você vai gastar todo o seu dinheirinho';
-// // }else {
-// //     message = 'Pode comprar'
-// // };
+// if(totalMoney < beenPrice){
+//     message ='Você não possui saldo suficiente';
+// }else if (totalMoney === beenPrice){
+//     message ='Você vai gastar todo o seu dinheirinho';
+// }else {
+//     message = 'Pode comprar'
+// };
 
-// // console.log(message);
+// console.log(message);
 
 
-// // const pastLifes = 1;
-// // const resultLifes = 2;
-// // const allLifes = 450
-// // let acenption = '';
+// const pastLifes =600;
+// const resultLifes = 2;
+// const allLifes = 450
+// let acenption = '';
 
-// // if(pastLifes + resultLifes >= allLifes){
-// //     acenption = 'Você está assencionado'
+// if(pastLifes + resultLifes >= allLifes){
+//     acenption = 'Você está assencionado'
 
-// // }else if (pastLifes + resultLifes <= 10){
-// //     acenption = 'Irá para o umbral'
-// // }
+// }else if (pastLifes + resultLifes <= 10){
+//     acenption = 'Irá para o umbral'
+// }
 
-// // console.log(acenption);
+// console.log(acenption);
 
 
 

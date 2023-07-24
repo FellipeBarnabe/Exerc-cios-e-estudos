@@ -243,7 +243,7 @@
 // console.log(findElements(pirilampoCustomers, 'Kyssyla'));
 // console.log(findElements(pirilampoCustomers, 'Felipe'));
 
-const balance = 100; 
+// const balance = 100; 
 
 // function sumBalance(value){
 //     return value + balance;
@@ -265,3 +265,5 @@ const balance = 100;
 // console.log(subtBalance(52));
 // console.log(multBalance(32));
 // console.log(divBalance(96));
+
+
