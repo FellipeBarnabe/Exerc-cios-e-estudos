@@ -1,14 +1,17 @@
-[
-    {
+{
+    "data": [
+      {
         "city": "Goiana",
-        "temperatura": 28,
+        "temperature": 28,
         "humidity": 70,
         "conditions": "ensolarado"
-    },
-    {
+      },
+      {
         "city": "Recife",
-        "Temperature": 37,
+        "temperature": 37,
         "humidity": 70,
         "conditions": "Chuva"
-    }
-]
+      }
+    ]
+  }
+  
